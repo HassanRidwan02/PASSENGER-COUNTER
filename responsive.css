@@ -1,0 +1,54 @@
+@media (min-width: 300px) and (max-width: 900px ) {
+    body{
+        height: 110vh;
+    }
+
+    
+#main {
+    width: 80%;
+}
+
+
+#num1-el {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+#num2-el {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    /* font-weight: 600; */
+    /* margin: 55px; */
+    /* border: 1px solid rgb(175, 175, 175); */
+}
+
+span #result-el {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+}

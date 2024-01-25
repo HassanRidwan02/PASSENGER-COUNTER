@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:url(flower.jpg);
+    /* opacity: 0.5; */
+    /* background-image: url(flower.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#main {
+    background-color: #fff;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+#count-el {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+button{
+    padding: 10px 20px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+#save-el{
+    margin-top: 10px;
+}
+
+#num1-el {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+#num2-el {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    font-weight: 600;
+    margin: 5px;
+    border: 1px solid rgb(175, 175, 175);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div id="main">
+        <h1>People Entered: </h1>    
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous Entries:</p>
+
+        
+        <br>
+        <h2>CALCULATOR</h2>
+        <br>
+        <span id="num1-el"></span>
+        <span id="num2-el"></span>
+        <br>
+        <button id="add-el" onclick="add()">Add</button>
+        <button onclick="sub()">Subtract</button> 
+        <button onclick="div()">Divide</button>
+        <button onclick="mul()">Multiply</button>
+        <button onclick="refresh()">REFRESH</button>
+        <!-- <br> -->
+
+        <!-- <a href="javascript:location.reload(true)">RELOAD</a> -->
+        <br>
+        <span id="result-el">Result: </span>
+
+    </div>
+    
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
